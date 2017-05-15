@@ -1,0 +1,22 @@
+{
+  "name": "machat",
+  "description": "chat application using socket.io",
+  "website": "https://github.com/jeongwoo511/machat",
+  "repository": "https://github.com/jeongwoo511/machat",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}
