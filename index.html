@@ -4,11 +4,11 @@
     <title>machat</title>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      body { font: 14px Calibri; background:white }
-      h1 { font: 50 px Calibri; background: lightgreen; font-style: italic; color: white; padding: 10px; }
+      body { font: 14px Georgia; background:white }
+      #myHeader { font: 30px Georgia; background: lightgreen; font-style: italic; font-weight: bold; color: white; padding: 10px; }
       form { background: lightgreen; padding: 10px; position: fixed; bottom: 0; width: 100%; }
       form input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; }
-      form button { font: 14px Calibri; width: 9.5%; background: white; border: none; padding: 9px; }
+      form button { font: 12px Arial; width: 9.5%; background: white; border: none; padding: 9px; }
       #messages { list-style-type: none; margin: 0; padding: 0; }
       #messages li { padding: 5px 10px; }
       #messages { margin-bottom: 40px }
@@ -16,7 +16,8 @@
   </head>
 
   <body>
-    <h1>machat</h1>
+    <div id="myHeader">machat</div>
+    
     <ul id="messages"></ul>
     
     <form action="">
