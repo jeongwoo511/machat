@@ -6,11 +6,12 @@
   "logo": "https://node-js-sample.herokuapp.com/node.svg",
   "success_url": "/",
   "keywords": [
-    "node",
+    "node.js",
     "express",
     "socket.io",
     "realtime",
-    "websocket"
+    "websocket",
+    "chat"
   ],
   "scripts": {
   },
